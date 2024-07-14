@@ -1,0 +1,37 @@
+.post-form {
+  display: flex;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+  margin-right: 20px;
+}
+
+.form-group input {
+  margin-top: -13px;
+  margin-right: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.form-group textarea {
+  margin-top: -13px;
+  margin-right: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.post-form button {
+  float: right;
+  margin-top: 10px;
+  padding: 4px 16px;
+  height: 30px;
+}
